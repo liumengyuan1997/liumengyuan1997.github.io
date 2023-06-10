@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<u><a href="https://github.com/zhangyanyu0722/zhangyanyu0722.github.io/raw/main/files/yanyu_CV.pdf">Download CV here.</a></u>
+<u><a href="https://github.com/liumengyuan1997/liumengyuan1997.github.io/raw/main/files/CV.pdf">Download CV here.</a></u>
 <br/>
 
 Education

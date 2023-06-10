@@ -1,0 +1,16 @@
+# main links links
+main:
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Publications"
+    url: /articles/
+
+  - title: "Life"
+    url: /life/
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "Contact"
+    url: /contact/

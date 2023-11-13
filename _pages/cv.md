@@ -20,6 +20,10 @@ Education
 
 Working Experience
 ======
+* Teaching Assistant
+  * Northeastern University
+  * Time: Sep. 2023 - Current
+  * Couse: DA5030: Introduction to Machine Learning and Data Mining
 * Software Development Internship
   * Boying Technology Inc.
   * Time: Apr. 2022 - Nov. 2022

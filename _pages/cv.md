@@ -20,9 +20,13 @@ Education
 
 Working Experience
 ======
+* Head Teaching Assistant
+  * Northeastern University
+  * Dec. 2023 - Present
+  * Course: CS2510: Fundamentals of Computer Science II, Objected-Oriented Design
 * Teaching Assistant
   * Northeastern University
-  * Time: Sep. 2023 - Current
+  * Time: Sep. 2023 - Dec. 2023
   * Couse: DA5030: Introduction to Machine Learning and Data Mining
 * Software Development Internship
   * Boying Technology Inc.

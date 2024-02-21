@@ -14,7 +14,7 @@ redirect_from:
 
 Education
 ======
-* Align M.S. in Computer Sciences, Northeastern University
+* M.S. in Computer Sciences, Northeastern University
 * M.P.A, Northeastern University
 * B.A. in Sociology, Nankai University
 
@@ -28,7 +28,7 @@ Working Experience
   * Northeastern University
   * Time: Sep. 2023 - Dec. 2023
   * Couse: DA5030: Introduction to Machine Learning and Data Mining
-* Software Development Internship
+* Software Engineer
   * Boying Technology Inc.
   * Time: Apr. 2022 - Nov. 2022
   * Supervisor: Chunlei Li

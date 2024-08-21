@@ -19,7 +19,7 @@
 
 
 
-<title>MovieGenius: Movie Discovery, Rating, and Recommendation - Mengyuan Liu</title>
+<title>GSoC2024 @ Jitsi Meet - Mengyuan Liu</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Mengyuan Liu">
-<meta property="og:title" content="MovieGenius: Movie Discovery, Rating, and Recommendation">
+<meta property="og:title" content="GSoC2024 @ Jitsi Meet">
 
 
-  <link rel="canonical" href="http://localhost:4000/projects/MovieGenius/">
-  <meta property="og:url" content="http://localhost:4000/projects/MovieGenius/">
+  <link rel="canonical" href="http://localhost:4000/projects/GSoC2024@JitsiMeet/">
+  <meta property="og:url" content="http://localhost:4000/projects/GSoC2024@JitsiMeet/">
 
 
 
-  <meta property="og:description" content="A movie recommender featuring search functionality, details display, and personalized recommendations">
+  <meta property="og:description" content="Implement Raised Hand related features to Jitsi Meet">
 
 
 
@@ -48,7 +48,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2023-04-21T00:00:00-07:00">
+  <meta property="article:published_time" content="2024-08-27T00:00:00-07:00">
 
 
 
@@ -145,9 +145,9 @@
 	"@context": "http://schema.org/",
 	"@type": "CreativeWork",
 	"author": "R. Stuart Geiger",
-        "name": "MovieGenius: Movie Discovery, Rating, and Recommendation",
-	"datePublished": "2023-04-21 00:00:00 -0700",
-	"description": "A movie recommender featuring search functionality, details display, and personalized recommendations"
+        "name": "GSoC2024 @ Jitsi Meet",
+	"datePublished": "2024-08-27 00:00:00 -0700",
+	"description": "Implement Raised Hand related features to Jitsi Meet"
     }
     </script>
 
@@ -225,9 +225,9 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="MovieGenius: Movie Discovery, Rating, and Recommendation">
-    <meta itemprop="description" content="A movie recommender featuring search functionality, details display, and personalized recommendations">
-    <meta itemprop="datePublished" content="April 21, 2023">
+    <meta itemprop="headline" content="GSoC2024 @ Jitsi Meet">
+    <meta itemprop="description" content="Implement Raised Hand related features to Jitsi Meet">
+    <meta itemprop="datePublished" content="August 27, 2024">
     
     
 
@@ -235,28 +235,67 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">MovieGenius: Movie Discovery, Rating, and Recommendation
+          <h1 class="page__title" itemprop="headline">GSoC2024 @ Jitsi Meet
 </h1>
           
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2023-04-21T00:00:00-07:00">April 21, 2023</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-08-27T00:00:00-07:00">August 27, 2024</time></p>
         
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p><a href="https://docs.google.com/presentation/d/1MPnThxRahhBiE8wrtjG9KTLw_Yo_DBscR05ef6AHaiM/edit#slide=id.gc6f972163_0_0">Link to slides</a></p>
+        <p>Details:</p>
 
-<p><a href="https://github.com/liumengyuan1997/movie_recommendation">Link to project</a></p>
+<p>Enhanced <a href="https://meet.jit.si/">Jitsi Meet</a> with advanced raised hand features, including automatic detection, real-time notifications, and interactive controls to streamline participant management and improve meeting engagement.</p>
 
-<p>Details:</p>
+<p>Implementation Spotlights:</p>
+
 <ul>
-  <li>Built a movie recommender featuring search functionality, details display, and personalized recommendations.</li>
-  <li>Held the recommender as a RESTful API using Flask in Python.</li>
-  <li>Designed and implemented 5 user-friendly webpages using HTML for seamless navigation.</li>
-  <li>Utilized CSS to enhance the visual appeal of the website and its contents.</li>
-  <li>Implemented JavaScript to improve webpage interactivity and enhance user engagement.</li>
-  <li>Integrated IMDB, OTT, ChatGPT 3.5, and UMDB as backend, enabling various web functions and providing a comprehensive movie-related experience.</li>
+  <li>
+    <p>Fixed Raised Hand Queue Error: Resolved issues with the raised hand queue to improve functionality. <a href="https://github.com/jitsi/jitsi-meet/pull/14867">Link to PR</a></p>
+  </li>
+  <li>
+    <p>Hand Management Features: Implemented the ability to lower an individual participant’s hand and to lower all hands for the meeting moderator. <a href="https://github.com/jitsi/jitsi-meet/pull/14851">Link to PR</a></p>
+  </li>
+  <li>
+    <p>Next Speaker Notification: Developed a notification system to prompt the next speaker to prepare for their turn, enhancing meeting flow. <a href="https://github.com/jitsi/jitsi-meet/pull/14904">Link to PR</a></p>
+  </li>
+  <li>
+    <p>Lower-Hand Notification: Added a notification to alert before a participant’s hand is automatically lowered when the dominant speaker changes. <a href="https://github.com/jitsi/jitsi-meet/pull/14960">Link to PR</a></p>
+  </li>
+  <li>
+    <p>Configurable Raised Hands Features: Introduced a raisedHands object in config.js to group and manage all raised hand features, including enabling/disabling options and selectors for easier updates. <a href="https://github.com/jitsi/jitsi-meet/pull/14975">Link to PR</a></p>
+  </li>
+  <li>
+    <p>‘View Participants’ Action: Added a ‘View Participants’ action to the notification, allowing users to open the participant pane directly from the notification. <a href="https://github.com/jitsi/jitsi-meet/pull/14959">Link to PR</a></p>
+  </li>
+  <li>
+    <p>Automated Hand Recognition: Enabled automatic detection and raising of participants’ hands via the video stream, streamlining interaction management. <a href="https://github.com/jitsi/jitsi-meet/pull/15001">Link to PR</a></p>
+  </li>
+</ul>
+
+<p>Key Learnings:</p>
+
+<ul>
+  <li>
+    <p>Error Resolution: Developed skills in troubleshooting and fixing functional issues within a complex system, enhancing debugging techniques.</p>
+  </li>
+  <li>
+    <p>Feature Implementation: Gained experience in adding and managing interactive features and notifications, improving user interaction and system usability.</p>
+  </li>
+  <li>
+    <p>Configuration Management: Acquired knowledge in creating and managing flexible configurations, enabling or disabling features, and simplifying updates.</p>
+  </li>
+  <li>
+    <p>User Interaction: Improved understanding of user interaction enhancement through real-time notifications and interactive controls.</p>
+  </li>
+  <li>
+    <p>Video Stream Integration: Gained insights into integrating video stream data for automatic feature management, enhancing functionality based on live data.</p>
+  </li>
+  <li>
+    <p>React Knowledge: Expanded understanding of React, including the use of hooks for managing state and side effects in functional components, which streamlined component logic and improved application performance.</p>
+  </li>
 </ul>
 
         
@@ -278,13 +317,13 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/projects/MovieGenius/" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/projects/GSoC2024@JitsiMeet/" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/projects/MovieGenius/" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/projects/GSoC2024@JitsiMeet/" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://plus.google.com/share?url=http://localhost:4000/projects/MovieGenius/" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+  <a href="https://plus.google.com/share?url=http://localhost:4000/projects/GSoC2024@JitsiMeet/" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/projects/MovieGenius/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/projects/GSoC2024@JitsiMeet/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -292,12 +331,11 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/projects/systemAnnualReview/" class="pagination--pager" title="Government Housing Assistance Eligibility Service (Software Engineering)
+      <a href="http://localhost:4000/projects/MovieGenius/" class="pagination--pager" title="MovieGenius: Movie Discovery, Rating, and Recommendation
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/projects/GSoC2024@JitsiMeet/" class="pagination--pager" title="GSoC2024 @ Jitsi Meet
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

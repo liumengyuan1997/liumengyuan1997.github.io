@@ -19,7 +19,7 @@
 
 
 
-<title>League of Legends Winner Predictor - Mengyuan Liu</title>
+<title>U-Net-Based Bone Segmentation with In-Depth Evaluation (Research) - Mengyuan Liu</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Mengyuan Liu">
-<meta property="og:title" content="League of Legends Winner Predictor">
+<meta property="og:title" content="U-Net-Based Bone Segmentation with In-Depth Evaluation (Research)">
 
 
-  <link rel="canonical" href="http://localhost:4000/projects/lolWinnerPredictor/">
-  <meta property="og:url" content="http://localhost:4000/projects/lolWinnerPredictor/">
+  <link rel="canonical" href="http://localhost:4000/projects/UNetBoneSegmentation/">
+  <meta property="og:url" content="http://localhost:4000/projects/UNetBoneSegmentation/">
 
 
 
-  <meta property="og:description" content="A Kaggle League of Legends Winner Prediction challenge">
+  <meta property="og:description" content="Conducted a comprehensive evaluation of U-Net’s performance across various anatomical planes and introduced innovative data preprocessing methods to enhance model accuracy and generalizability. Our work significantly advances medical imaging, leading to improved clinical outcomes in orthopedics and rehabilitation medicine.">
 
 
 
@@ -48,7 +48,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2020-08-25T00:00:00-07:00">
+  <meta property="article:published_time" content="2024-08-31T00:00:00-07:00">
 
 
 
@@ -145,9 +145,9 @@
 	"@context": "http://schema.org/",
 	"@type": "CreativeWork",
 	"author": "R. Stuart Geiger",
-        "name": "League of Legends Winner Predictor",
-	"datePublished": "2020-08-25 00:00:00 -0700",
-	"description": "A Kaggle League of Legends Winner Prediction challenge"
+        "name": "U-Net-Based Bone Segmentation with In-Depth Evaluation (Research)",
+	"datePublished": "2024-08-31 00:00:00 -0700",
+	"description": "Conducted a comprehensive evaluation of U-Net’s performance across various anatomical planes and introduced innovative data preprocessing methods to enhance model accuracy and generalizability. Our work significantly advances medical imaging, leading to improved clinical outcomes in orthopedics and rehabilitation medicine."
     }
     </script>
 
@@ -225,9 +225,9 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="League of Legends Winner Predictor">
-    <meta itemprop="description" content="A Kaggle League of Legends Winner Prediction challenge">
-    <meta itemprop="datePublished" content="August 25, 2020">
+    <meta itemprop="headline" content="U-Net-Based Bone Segmentation with In-Depth Evaluation (Research)">
+    <meta itemprop="description" content="Conducted a comprehensive evaluation of U-Net’s performance across various anatomical planes and introduced innovative data preprocessing methods to enhance model accuracy and generalizability. Our work significantly advances medical imaging, leading to improved clinical outcomes in orthopedics and rehabilitation medicine.">
+    <meta itemprop="datePublished" content="August 31, 2024">
     
     
 
@@ -235,42 +235,48 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">League of Legends Winner Predictor
+          <h1 class="page__title" itemprop="headline">U-Net-Based Bone Segmentation with In-Depth Evaluation (Research)
 </h1>
           
         
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2020-08-25T00:00:00-07:00">August 25, 2020</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-08-31T00:00:00-07:00">August 31, 2024</time></p>
         
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p><a href="https://github.com/liumengyuan1997/LoL_Winner_Prediction">Link to project</a></p>
+        <p>Details:</p>
 
-<p>Details:</p>
+<p>Performed a thorough evaluation of U-Net’s performance for MRI bone segmentation at the <a href="https://www.khoury.northeastern.edu/clubs_and_orgs/multimedia-information-groupmig-san-jose/">Multimedia Information Group (MIG)</a>.</p>
+
+<p>Reproducibility and Testing for U-Net Model:</p>
+
 <ul>
-  <li>
-    <p>Participated in Kaggle League of Legends Winner Prediction challenge.</p>
-  </li>
-  <li>
-    <p>Preprocessed data and rejected outliers using DBSCAN algorithm in R.</p>
-  </li>
-  <li>
-    <p>Implemented the principal component analysis (PCA) technique to address multicollinearity issues.</p>
-  </li>
-  <li>
-    <p>Trained and predicted the winner using various algorithms, including ANN, KNN, SVM, and GLM.</p>
-  </li>
-  <li>
-    <p>Interacted multiple models by weighting the predictions from multiple models.</p>
-  </li>
-  <li>
-    <p>Evaluated the accuracy of models using Confusion Matrix and ROC curve.</p>
-  </li>
-  <li>
-    <p>Launched the estimator using an interactive dashboard on Shiny to enhance user experience.</p>
-  </li>
+  <li>CUDA Version: 11.8</li>
+  <li>GPU: NVIDIA GeForce RTX 2080 SUPER</li>
+  <li>Framework: PyTorch 1.13 or later</li>
 </ul>
+
+<p>Testing Scope:</p>
+
+<ul>
+  <li>MRI Views: Evaluated U-Net performance on axial, sagittal, and coronal MRI bone scans.</li>
+  <li>Input Scales: Assessed across various input scales, including 224x224 and scales from 0.1 to 1.0.</li>
+  <li>Loss Functions: Compared effectiveness of various loss functions, including:
+    <ul>
+      <li>Dice Loss with Focal Loss</li>
+      <li>Dice Loss with Hausdorff Distance (HD) Loss</li>
+      <li>Dice Loss with Boundary (BD) Loss</li>
+      <li>Dice Loss</li>
+      <li>Cross-Entropy Loss</li>
+      <li>Intersection over Union (IoU) Loss</li>
+      <li>Optimization Loss Functions: Lovász Loss, Tversky Loss</li>
+    </ul>
+  </li>
+  <li>Augmentation Techniques: Tested the impact of data augmentations such as horizontal and vertical flipping, rotation, and random cropping.</li>
+</ul>
+
+<p>For detailed code and implementation, please check out the repository: <a href="https://github.com/liumengyuan1997/Med_Unet">Med_Unet</a>.</p>
 
         
       </section>
@@ -291,13 +297,13 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/projects/lolWinnerPredictor/" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/projects/UNetBoneSegmentation/" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/projects/lolWinnerPredictor/" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/projects/UNetBoneSegmentation/" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://plus.google.com/share?url=http://localhost:4000/projects/lolWinnerPredictor/" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+  <a href="https://plus.google.com/share?url=http://localhost:4000/projects/UNetBoneSegmentation/" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/projects/lolWinnerPredictor/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/projects/UNetBoneSegmentation/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -305,11 +311,11 @@
 
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="http://localhost:4000/projects/GoogleSummerofCode2024@JitsiMeet/" class="pagination--pager" title="Google Summer of Code 2024 @ Jitsi Meet
+">Previous</a>
     
     
-      <a href="http://localhost:4000/projects/COVID-19_Monitor/" class="pagination--pager" title="IOS COVID-19 Real-time Monitoring App
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

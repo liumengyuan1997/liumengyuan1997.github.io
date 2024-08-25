@@ -12,8 +12,13 @@ excerpt: "A movie recommender featuring search functionality, details display, a
 
 Details:
 * Built a movie recommender featuring search functionality, details display, and personalized recommendations.
+
 * Held the recommender as a RESTful API using Flask in Python.
+
 * Designed and implemented 5 user-friendly webpages using HTML for seamless navigation.
-*	Utilized CSS to enhance the visual appeal of the website and its contents.
-*	Implemented JavaScript to improve webpage interactivity and enhance user engagement.
-*	Integrated IMDB, OTT, ChatGPT 3.5, and UMDB as backend, enabling various web functions and providing a comprehensive movie-related experience.
+
+* Utilized CSS to enhance the visual appeal of the website and its contents.
+
+* Implemented JavaScript to improve webpage interactivity and enhance user engagement.
+
+* Integrated IMDB, OTT, ChatGPT 3.5, and UMDB as backend, enabling various web functions and providing a comprehensive movie-related experience.

@@ -7,9 +7,7 @@ location: "Boston, CA"
 excerpt: "A Kaggle League of Legends Winner Prediction challenge"
 ---
 
-[Link to project](https://github.com/liumengyuan1997/LoL_Winner_Prediction)
-
-Details:
+Details ([Link to Repo](https://github.com/liumengyuan1997/LoL_Winner_Prediction)):
 *	Participated in Kaggle League of Legends Winner Prediction challenge.
 
 *	Preprocessed data and rejected outliers using DBSCAN algorithm in R.

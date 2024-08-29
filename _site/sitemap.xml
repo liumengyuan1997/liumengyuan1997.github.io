@@ -312,6 +312,10 @@
 <lastmod>2023-04-21T00:00:00-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/projects/AllShake/</loc>
+<lastmod>2024-05-15T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/projects/GBCSGroup@SKYIT/</loc>
 <lastmod>2024-08-15T00:00:00-07:00</lastmod>
 </url>
@@ -325,6 +329,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/teaching/DA5030/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/teaching/CS2500/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/teaching/CS2510/</loc>
@@ -392,7 +399,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/files/CV.pdf</loc>
-<lastmod>2024-02-21T09:45:37-08:00</lastmod>
+<lastmod>2024-08-29T15:49:43-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/talkmap/map.html</loc>

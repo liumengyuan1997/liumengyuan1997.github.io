@@ -24,7 +24,7 @@ Implementation Spotlights:
 
 * 'View Participants' Action: Added a 'View Participants' action to the notification, allowing users to open the participant pane directly from the notification. [Link to PR](https://github.com/jitsi/jitsi-meet/pull/14959)
 
-* Automated Hand Recognition: Enabled automatic detection and raising of participants' hands via the video stream, streamlining interaction management. [Link to PR](https://github.com/jitsi/jitsi-meet/pull/15001)
+* Automated Hand Recognition: Enabled automatic detection and raising of participants' hands via the video stream, streamlining interaction management. [Link to PR](https://github.com/jitsi/jitsi-meet/pull/15001) & [Link to Feature Demo](https://youtu.be/WyY79P1reZI)
 
 Key Learnings:
 

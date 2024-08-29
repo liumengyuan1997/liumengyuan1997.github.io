@@ -6,11 +6,8 @@ date: 2023-04-21
 location: "San Francisco, CA"
 excerpt: "A movie recommender featuring search functionality, details display, and personalized recommendations"
 ---
-[Link to slides](https://docs.google.com/presentation/d/1MPnThxRahhBiE8wrtjG9KTLw_Yo_DBscR05ef6AHaiM/edit#slide=id.gc6f972163_0_0)
 
-[Link to project](https://github.com/liumengyuan1997/movie_recommendation)
-
-Details:
+Details ([Link to Repo](https://github.com/liumengyuan1997/movie_recommendation) & [Link to slides](https://docs.google.com/presentation/d/1MPnThxRahhBiE8wrtjG9KTLw_Yo_DBscR05ef6AHaiM/edit#slide=id.gc6f972163_0_0)):
 * Built a movie recommender featuring search functionality, details display, and personalized recommendations.
 
 * Held the recommender as a RESTful API using Flask in Python.

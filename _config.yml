@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mengyuan Liu"
 title_separator          : "-"
 name                     : &name "Mengyuan Liu"
-description              : &description "Align MSCS at Northeastern University"
+description              : &description "MSCS at Northeastern University"
 url                      : https://liumengyuan1997.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "liumengyuan1997/liumengyuan1997.github.io"
@@ -83,7 +83,7 @@ social:
 author:
   name             : "Mengyuan Liu"
   avatar           : "profile_square.png"
-  bio              : "Align MSCS at NEU"
+  bio              : "MSCS at NEU"
   # bio              : "<br> Ph.D. at UC Riverside: <ul><li><a style='color: black;' href='http://communication.ucsd.edu'>Department of Electrical and Computer Engineering</a></li> </ul>"
   location         : "San Francisco, CA"
   employer         :

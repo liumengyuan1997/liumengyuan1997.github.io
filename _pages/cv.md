@@ -15,8 +15,6 @@ redirect_from:
 Education
 ======
 * M.S. in Computer Sciences, Northeastern University
-* M.P.A, Northeastern University
-* B.A. in Sociology, Nankai University
 
 Working Experience
 ======

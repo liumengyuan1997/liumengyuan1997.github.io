@@ -9,7 +9,9 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "jekyll"
+gem "jekyll", "~> 3.9.3"
+gem "csv"
+gem "webrick"
 gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
 gem "jekyll-include-cache"

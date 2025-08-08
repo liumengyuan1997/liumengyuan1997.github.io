@@ -88,7 +88,7 @@ author:
   location         : "San Francisco, CA"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=WX3oPGIAAAAJ&hl=en"
   email            : "liu.mengyu@northeastern.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
